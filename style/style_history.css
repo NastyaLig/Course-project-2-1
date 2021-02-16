@@ -1,0 +1,123 @@
+.center-pic {
+  display: block;
+  margin: auto;
+}
+#image_article_r {
+  margin: 0px 0px 5px 5px;
+}
+#image_article_l {
+  margin: 0px 5px 0px 5px;
+}
+.content {
+  display: block;
+  font-family: "Kurale";
+  font-size: 100%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+ 
+}
+.a1{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+/*сoдержание*/
+#rounded {
+  width: 50%;
+  display: block;
+  height: 3%;
+  counter-reset: li;
+  list-style: none;
+  font-family: "Kurale";
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+ 
+}
+
+.stat {
+  width: 100%;
+  height: auto;
+  font-family: "Kurale";
+  color: black;
+  font-size: 100%;
+  text-align: left;
+  margin-left: 0%;
+  margin-right: auto;
+  padding-right:3%;
+  padding-left: 3%;
+}
+#rounded a {
+  position: relative;
+  display: block;
+  padding: 0.4em 0.4em 0.4em 2em;
+  margin: 0.5em 0;
+  background: #ffb4ff;
+  color: #444;
+  text-decoration: none;
+  border-radius: 0.3em;
+  transition: 0.3s ease-out;
+}
+#rounded a:hover {
+  background: #e9e4e0;
+}
+#rounded a:hover:before {
+  transform: rotate(360deg);
+}
+#rounded a:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 60%;
+  margin-top: -1.3em;
+  background: #a3aaff;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: 0.1em solid white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all 0.3s ease-out;
+}
+/*-------------- конец содержания*/
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+  padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+  top: 0;
+  bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+  padding: 0;
+}
+.block_main_inside {
+  font-family: "Kurale";
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0px;
+  background-color: #ffe8f1ee;
+  padding-top: 0px;
+}
+@media (max-width: 767px) {
+  .content {
+    width: 100%;
+    height: auto;
+  }
+  #image_article_r {
+    width: 100%;
+    height: auto;
+    margin: 0px 0 20px 20px;
+  }
+  #image_article_l {
+    margin: 0px 20px 10px 0px;
+  }
+}

@@ -1,0 +1,16 @@
+ .h1{
+	 color:rgb(4, 4, 138);
+	 text-align: center;
+	 margin-top: 150px;
+	 font-size: 50px;
+ }
+ 
+ .h3{
+	 color: orange;
+	 text-align: center;
+	 font-size: 30px;
+ }
+ .img{ 
+   display: block;
+   margin:auto;
+ }

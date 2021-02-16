@@ -1,0 +1,206 @@
+
+
+.anons {
+  font-family: "Kurale";
+  background-color: #9a9afe;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.anons-bloc {
+  font-family: "Kurale";
+  color: black;
+  font-size: 95%;
+  text-align: left;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.anons-name {
+  font-family: "Kurale";
+  font-size: 140%;
+  color: black;
+  text-align: center;
+}
+.party {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.party-text {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  margin: 0px 0%;
+  background-color: #e1e0e0;
+  font-family: "Kurale";
+  text-align: center;
+  color: #2fab21;
+  font-size: 40px;
+}
+.party-text1 {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  font-family: "Kurale";
+  text-align: left;
+  /* font-weight: 800px;*/
+  font-size: 17px;
+  color: black;
+  word-spacing: 0px;
+  background-color: #defcf9;
+}
+.conk {
+  margin-right: 0%;
+}
+.slider {
+  display: block;
+
+  /**/
+  margin-top: 1px;
+  margin-bottom: 0px;
+  margin-left: 2%;
+  margin-right: 8%;
+  width: 100%;
+}
+.fotorama {
+  /**/
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #ededed;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.foto-item {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+.cit {
+  font-size: 20px;
+  margin-top: 345px;
+}
+
+.cit-hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.cit-cap {
+  font-style: italic;
+}
+
+.foto-item {
+  margin-top: 0;
+  height: 150px;
+  text-align: bottom;
+}
+
+.citata {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #003153;
+  padding: 10px 10px 10px 10px;
+  border-top: 5px solid #ebeb70;
+  border-left: 5px solid#EBEB70;
+  border-right: 5px solid#EBEB70;
+  border-bottom: 5px solid#EBEB70;
+  position: relative;
+  background: #d3e5ffa8;
+  font-family: "Kurale";
+  font-weight: 250px;
+}
+.citata p {
+  font-style: oblique;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.best {
+  font-family: "Kurale";
+  text-align: center;
+  color: #5f407d;
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 5%;
+}
+.films {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+/*просмотр кино*/
+
+/*кнопка для 1 фильма*/
+#but_close {
+  position: absolute;
+  top: 2300px;
+  margin-left: 30%;
+  display: inline-block;
+  color: rgba(29, 28, 28, 0.945);
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: 0.5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+#but_close:hover {
+  background: #c7c8caa8;
+}
+#but_close:active {
+  background: rgba(29, 28, 28, 0.945);
+}
+#vid {
+  margin: 5px 250px;
+}
+.a4a4 {
+  font-family: "Kurale";
+  text-align: center;
+  color: #003153;
+  font-size: 20px;
+  margin-right: 50px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+
+.block_main_inside {
+  font-family: "Kurale";
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 9.9%;
+  margin-right: 10%;
+  margin-bottom: 0px;
+  background-color: #ffe8f1ee;
+  padding-top: 20px;
+}
+@media (max-width: 767px) {
+  .imga4 {
+    width: 100%;
+    height: auto;
+   
+  }
+  .imganons {
+    width: 100%;
+    height: auto;
+  }
+  .conk {
+    width: 100%;
+    height: auto;
+  }
+}
