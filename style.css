@@ -4,7 +4,7 @@
 @import url("libs/stylesheet.css");
 
 body {
-  background-image: url(images/5b.jpg);
+  background-image: url(5b.jpg);
   background-attachment: fixed;
   font: "Kurale";
 }
@@ -12,7 +12,7 @@ body {
 .header_top {
   width: 100%;
   height: auto;
-  background-image: url(images/f.jpg);
+  background-image: url(f.jpg);
   background-size: 100%;
   /*background: #89FFFB;*/
 }
@@ -144,7 +144,7 @@ nav ul {
 /* -------  footer  -------- */
 
 .footer {
-  background-image: url(images/f.jpg);
+  background-image: url(f.jpg);
   width: 100%;
   font-family: "Kurale";
   color: white;
